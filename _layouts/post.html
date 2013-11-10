@@ -1,0 +1,23 @@
+{% include top.html %}
+<body class="luysec">
+{% include header.html %}
+<div id="carousel">{% include ad728X90.html %}</div><!-- /carousel -->
+	<div id="inner">
+		<div class="inner">
+			<div id="content-sidebar-wrap">
+			{% include post.html %}
+			{% include sidebar.html %}
+			</div><!-- /content-sidebar-wrap -->
+		</div><!-- /wrap -->
+	</div><!-- /inner -->
+{% include footer.html %}
+<script type="text/javascript">
+	var disqus_shortname = 'luysec';
+	(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+</body>
+</html>
